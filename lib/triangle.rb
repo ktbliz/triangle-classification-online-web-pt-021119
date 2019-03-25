@@ -15,7 +15,7 @@ class Triangle
       raise TriangleError
     elsif @side1 == @side2 && @side1 == @side3
       "equilateral"
-    
+    end   
   end 
   
   class TriangleError < StandardError
